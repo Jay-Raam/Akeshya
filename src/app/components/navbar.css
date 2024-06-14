@@ -1,0 +1,184 @@
+.navbar {
+  background-color: white;
+  padding: 22px 0;
+}
+
+.top-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-001 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 105px;
+}
+
+.logo {
+  font-size: 30px;
+  color: #14279b;
+  font-weight: bold;
+}
+
+.menu-button-container {
+  display: none;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #000;
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-right: 110px;
+}
+
+.nav-link {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #14279b;
+}
+
+.contact-button {
+  background-color: #14279b;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #4aa3df;
+}
+
+.close-btn {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .main-001 {
+    justify-content: space-around;
+  }
+
+  .menu-button-container {
+    display: block;
+  }
+
+  .logo-container {
+    margin: 0;
+    justify-content: center;
+  }
+
+  .close-btn {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: 23px;
+    margin-right: 85px;
+  }
+
+  .close-icon {
+    color: white;
+  }
+
+  .nav-links-container {
+    position: absolute;
+    right: 0;
+    z-index: 1010;
+    top: 0;
+    width: 100%;
+    background-color: rgba(9, 9, 9, 0.9);
+    display: none;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-links-container.open {
+    display: flex;
+    gap: 33px;
+  }
+
+  .nav-links-container.closed {
+    display: none;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 12px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    height: 87vh;
+  }
+
+  .contact-button {
+    width: 100%;
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar{
+    width: 768px;
+  }
+  .logo-img {
+    width: 23%;
+  }
+
+  .menu-button-container {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .close-btn {
+    margin-right: 20px;
+  }
+
+  .logo-container {
+    justify-content: flex-start;
+    margin-left: 17px;
+  }
+}

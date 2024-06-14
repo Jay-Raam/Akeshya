@@ -1,0 +1,81 @@
+.animation{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+  .line-before-after::before,
+  .line-before-after::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #14279b;
+    margin-bottom: 8px;
+
+    display: inline-block;
+  }
+
+  .line-before-after::before{
+    margin-right: 20px;
+  }
+  .line-before-after::after{
+    margin-left: 20px;    
+  }
+  
+/* service hover effect */
+.card:hover .icon {
+  background-color: white;
+}
+
+.card:hover .icon svg {
+  color: #14279b;
+}
+
+.card:hover .content h2 {
+  color: white;
+}
+
+.card:hover .content p {
+  color: white;
+}
+
+.hover-effect-001::before {
+  content: '';
+  position: absolute;
+  background: #e1f0fa;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.hover-effect-001:hover::before {
+  background: #14279b;
+  right: 0;
+  top: 0;
+  width: calc(100% + 60px);
+  height: calc(100% + 40px);
+  border-radius: 0px;
+}
+
+
+.card-01:hover {
+  background: #14279b;
+}
+
+.card-01:hover .title-for-card,
+.card-01:hover .des-for-card {
+  color: white;
+}
+
+
