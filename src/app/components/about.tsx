@@ -58,7 +58,7 @@ const AboutComponent = () => {
             <p
               className={`text-primary-middle text-[16px] ${openSans.className}`}
             >
-              We are professional, but we're also friendly, and we'll always pay
+              We are professional, but we are also friendly, and we will always pay
               attention to your concerns. We expect to work with innovative
               people that have an open mind and are dedicated to making every
               idea a reality. We want to hear from you if you're interested in
