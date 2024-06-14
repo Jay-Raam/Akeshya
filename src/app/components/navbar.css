@@ -129,7 +129,7 @@
 
   .nav-links-container.open {
     display: flex;
-    gap: 33px;
+    gap: 50px;
   }
 
   .nav-links-container.closed {
