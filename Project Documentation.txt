@@ -1,0 +1,74 @@
+# Project Documentation
+
+## Overview
+
+Brief Overview of Recreating Akeshya
+
+For my Next.js project, I undertook a task assigned by a prospective employer to showcase my skills. The objective was to recreate the Akeshya website, demonstrating proficiency in modern web development technologies.
+
+Project Details:
+
+Website Recreation: The project involved replicating and improving upon the existing Akeshya website. This included designing responsive layouts, implementing dynamic components, and enhancing user interactions.
+
+Upon completion, I successfully deployed the project using Vercel, making it accessible through the following link: https://akeshya-three.vercel.app/. The deployment on Vercel ensured high performance and reliability, showcasing the project to potential employers as a demonstration of my skills in web development with Next.js and related technologies.
+
+This project not only allowed me to showcase my technical capabilities but also provided valuable experience in recreating a real-world website, employing industry-standard tools and best practices in modern web development.
+
+## Project Structure
+
+- `app/`: Contains main pages for the application.
+- `components/`: Reusable UI components.
+- `image/`: Static assets.
+
+## Technologies Used
+
+- **Next.js**: Version 14.2.3
+  - Next.js is used as the framework for server-rendered React applications, providing features like automatic code splitting, file-based routing, and more.
+
+- **React**: Version 18
+  - React is the core UI library used within Next.js for building component-based user interfaces.
+
+- **ReactDOM**: Version 18
+  - ReactDOM is used for rendering React components into the DOM.
+
+- **react-icons**: Version 5.2.1
+  - react-icons provides a collection of icons for use in React applications.
+
+- **boxicons**: Version 2.1.4
+  - boxicons is a library of carefully designed icons for use in web projects.
+
+- **aos**: Version 2.3.4
+  - aos (Animate on Scroll) is a library to animate elements on scrolling.
+
+- **next-font**: Version 14.2.3
+  - next-font (assuming it's a custom or specific font-related package) helps manage fonts within Next.js applications.
+
+- **Tailwind CSS**: Version 3.4.1
+  - Tailwind CSS is a utility-first CSS framework used for styling components.
+
+- **TypeScript**: Version 5
+  - TypeScript is a typed superset of JavaScript that compiles to plain JavaScript, enhancing code quality and developer productivity.
+
+- **ESLint**: Version 8
+  - ESLint is a static code analysis tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+
+ 
+
+## Setup Instructions
+
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+
+Open http://localhost:3000 with your browser to see the result.
+
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
+
+
+## Development Workflow
+- Branching: Feature branches off `main`, PRs required for merging.
+- Code Style: ESLint with Airbnb config.
