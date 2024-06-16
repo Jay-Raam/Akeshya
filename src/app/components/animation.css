@@ -1,34 +1,34 @@
-.animation{
-    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+.animation {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
 @keyframes up-down {
-    0% {
-        transform: translateY(10px);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
-  .line-before-after::before,
-  .line-before-after::after {
-    content: '';
-    width: 50px;
-    height: 2px;
-    background: #14279b;
-    margin-bottom: 8px;
+.line-before-after::before,
+.line-before-after::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #14279b;
+  margin-bottom: 8px;
 
-    display: inline-block;
-  }
+  display: inline-block;
+}
 
-  .line-before-after::before{
-    margin-right: 20px;
-  }
-  .line-before-after::after{
-    margin-left: 20px;    
-  }
-  
+.line-before-after::before {
+  margin-right: 20px;
+}
+.line-before-after::after {
+  margin-left: 20px;
+}
+
 /* service hover effect */
 .card:hover .icon {
   background-color: white;
@@ -47,7 +47,7 @@
 }
 
 .hover-effect-001::before {
-  content: '';
+  content: "";
   position: absolute;
   background: #e1f0fa;
   right: -60px;
@@ -68,7 +68,6 @@
   border-radius: 0px;
 }
 
-
 .card-01:hover {
   background: #14279b;
 }
@@ -78,4 +77,20 @@
   color: white;
 }
 
-
+@media (max-width: 480px) {
+  .hover-effect-001 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .hover-Effect-001 {
+    width: 95%;
+    background: #0000001f;
+    padding: 8px;
+  }
+  .hover-Effect-001:hover{
+    background: #4aa3df42;
+  }
+  .Hover-Effect-002 {
+    margin-left: 11px;
+  }
+}

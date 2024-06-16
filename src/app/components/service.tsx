@@ -67,7 +67,7 @@ const ServiceComponent = () => {
             help you turn your idea into a reality.
           </p>
         </div>
-        <div className="cards mt-14 flex flex-col mx-auto my-0 max-w-[1220px] gap-2 lg:flex-row lg:flex-nowrap md:flex-wrap md:flex-row md:justify-center md:gap-4">
+        <div className="cards mt-14 flex flex-col mx-auto my-0 max-w-[1220px] gap-[2.5rem] lg:flex-row lg:flex-nowrap md:flex-wrap md:flex-row md:justify-center md:gap-4">
           {data.map((item) => (
             <div
               className="card hover-effect-001 flex w-[300px] mx-auto my-0 justify-center items-start p-[30px] lg:w-[442px] relative overflow-hidden rounded-[3px]"

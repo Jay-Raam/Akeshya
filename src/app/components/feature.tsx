@@ -68,9 +68,9 @@ const OurFeatureComponent = () => {
         <div className="icon max-w-[1220px] flex flex-wrap justify-center items-center gap-6 mt-[4rem]" data-aos="fade-up" data-aos-delay="300">
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiWindowLine className="text-primary-one text-[32px] ml-8" />
+            <RiWindowLine className="text-primary-one text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black  text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -80,9 +80,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiCodeBoxLine className="text-primary-two text-[32px] ml-8" />
+            <RiCodeBoxLine className="text-primary-two text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -92,9 +92,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiCreativeCommonsByLine className="text-primary-eleven text-[32px] ml-8" />
+            <RiCreativeCommonsByLine className="text-primary-eleven text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -104,9 +104,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiPlayCircleFill className="text-primary-four text-[32px] ml-8" />
+            <RiPlayCircleFill className="text-primary-four text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -116,9 +116,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiSearchEyeLine className="text-primary-five text-[32px] ml-8" />
+            <RiSearchEyeLine className="text-primary-five text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -128,9 +128,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiTodoLine className="text-primary-six text-[32px] ml-8" />
+            <RiTodoLine className="text-primary-six text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -140,9 +140,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiMapPinLine className="text-primary-seven text-[32px] ml-8" />
+            <RiMapPinLine className="text-primary-seven text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -152,9 +152,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiBarChartGroupedLine className="text-primary-eight text-[32px] ml-8" />
+            <RiBarChartGroupedLine className="text-primary-eight text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -164,9 +164,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiContactsBookLine className="text-primary-nine text-[32px] ml-8" />
+            <RiContactsBookLine className="text-primary-nine text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -176,9 +176,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiDiscLine className="text-primary-ten text-[32px] ml-8" />
+            <RiDiscLine className="text-primary-ten text-[32px] ml-8 Hover-Effect-002" />
 
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
@@ -189,9 +189,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiCalendarEventFill className="text-primary-eleven text-[32px] ml-8" />
+            <RiCalendarEventFill className="text-primary-eleven text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >
@@ -201,9 +201,9 @@ const OurFeatureComponent = () => {
 
           <Link
             href="/"
-            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px]"
+            className="flex justify-start items-center gap-3 w-full md:w-auto lg:w-[23%] mb-[22px] hover-Effect-001"
           >
-            <RiAdvertisementFill className="text-primary-twelve text-[32px] ml-8" />
+            <RiAdvertisementFill className="text-primary-twelve text-[32px] ml-8 Hover-Effect-002" />
             <h1
               className={`text-black text-[16px] ${raleway.className} hover:text-primary-dark cursor-pointer font-bold`}
             >

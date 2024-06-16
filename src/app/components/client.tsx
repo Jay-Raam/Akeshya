@@ -42,7 +42,7 @@ const ClientComponent = () => {
                   targetValue={3835039}
                   duration={5000}
                   threshold={0.5}
-                  className={`${openSans.className} text-[36px] text-black`}
+                  className={`${openSans.className} text-[36px] text-black font-bold`}
                   initialValue={3835001}
                 />
               </div>
@@ -62,7 +62,7 @@ const ClientComponent = () => {
                   targetValue={14081}
                   duration={5000}
                   threshold={0.5}
-                  className={`${openSans.className} text-[36px] text-black`}
+                  className={`${openSans.className} text-[36px] text-black font-bold`}
                   initialValue={14071}
                 />
               </div>
@@ -81,7 +81,7 @@ const ClientComponent = () => {
                   targetValue={85}
                   duration={5000}
                   threshold={0.5}
-                  className={`${openSans.className} text-[36px] text-black`}
+                  className={`${openSans.className} text-[36px] text-black font-bold`}
                   initialValue={85}
                 />
               </div>
@@ -98,7 +98,7 @@ const ClientComponent = () => {
                   targetValue={17}
                   duration={5000}
                   threshold={0.5}
-                  className={`${openSans.className} text-[36px] text-black`}
+                  className={`${openSans.className} text-[36px] text-black font-bold`}
                   initialValue={17}
                 />
               </div>
