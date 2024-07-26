@@ -6,14 +6,8 @@ import Image005 from "../image/clients/client-4.png";
 import Image006 from "../image/clients/client-5.png";
 import Image007 from "../image/clients/client-6.png";
 import Image from "next/image";
-import { Open_Sans, Raleway } from "@next/font/google";
+import { Raleway } from "@next/font/google";
 import "./animation.css";
-
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "swap",
-});
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -51,12 +45,11 @@ const HomeComponent = () => {
             Get Started
           </button>
         </div>
-        <div className="image-in-hero overflow-hidden"  data-aos="fade-left" >
+        <div className="image-in-hero overflow-hidden" data-aos="fade-left">
           <Image
             src={Image001}
             alt="hero-image"
             className="w-full overflow-hidden lg:w-[525px] flex justify-center items-center animation"
-           
           />
         </div>
       </div>
@@ -75,7 +68,7 @@ const HomeComponent = () => {
           src={Image004}
           alt="client-logo-03"
           className="h-auto w-[100px] grayscale hover:grayscale-0"
-          data-aos="zoom-in" data-aos-delay="100"
+          data-aos="zoom-in"
         />
         <Image
           src={Image005}
@@ -86,7 +79,7 @@ const HomeComponent = () => {
           src={Image006}
           alt="client-logo-05"
           className="h-auto w-[100px] grayscale hover:grayscale-0"
-          data-aos="zoom-in" data-aos-delay="200"
+          data-aos="zoom-in"
         />
         <Image
           src={Image007}

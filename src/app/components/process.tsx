@@ -21,7 +21,7 @@ const CardContent = ({
   describe: string;
 }) => {
   return (
-    <div className="content flex-wrap"  data-aos="fade-up" data-aos-delay="100">
+    <div className="content flex-wrap" data-aos="fade-up" data-aos-delay="100">
       <h2
         className={`${raleway.className} title-for-card text-[18px] font-bold text-black mb-[14px] text-center`}
       >
@@ -91,7 +91,7 @@ const OurProcessComponent = () => {
         <div className="container  mx-auto my-0">
           <div className="title" data-aos="fade-up">
             <h1
-              className={`${raleway.className} text-[24px] lg:text-[34px] uppercase text-black font-bold mb-3 line-before-after text-center`}
+              className={`${raleway.className} text-[23px] lg:text-[34px] uppercase text-black font-bold mb-3 line-before-after text-center`}
             >
               Our Process
             </h1>
@@ -104,7 +104,11 @@ const OurProcessComponent = () => {
             </p>
           </div>
           <div className="cards-01 max-w-[1200px] mx-auto my-0 flex flex-col justify-center items-center mt-[30px] gap-[67px]">
-            <div className="flex justify-center items-center gap-[8rem] flex-wrap md:flex-nowrap md:mx-auto md:my-0">
+            <div
+              className="flex justify-center items-center gap-[8rem] flex-wrap md:flex-nowrap md:mx-auto md:my-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               {Dataprocess.map((item, index) => (
                 <Card
                   key={index}
@@ -114,7 +118,11 @@ const OurProcessComponent = () => {
                 />
               ))}
             </div>
-            <div className="flex justify-center items-center gap-[8rem] flex-wrap md:flex-nowrap md:mx-auto md:my-0">
+            <div
+              className="flex justify-center items-center gap-[8rem] flex-wrap md:flex-nowrap md:mx-auto md:my-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               {DataprocessSecondary.map((item, index) => (
                 <Card
                   key={index}

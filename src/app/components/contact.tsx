@@ -76,46 +76,57 @@ const contactComponent = () => {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div className="form-group w-full mx-auto my-0">
-                <input
-                  type="text"
-                  className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div className="form-group w-full mx-auto my-0">
-                <input
-                  type="email"
-                  className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div className="form-group w-full mx-auto my-0">
-                <input
-                  type="text"
-                  className="w-full p-2 focus-visible:outline-primary-light border rounded-md text-base text-primary-middle border-primary-bordercolor"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div className="form-group w-full mx-auto my-0">
-                <textarea
-                  className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
-                  placeholder="Message"
-                  rows={5}
-                  required
-                ></textarea>
-              </div>
-              <div className="form-group w-full mx-auto my-0 text-center">
-                <button
-                  type="submit"
-                  className="btn bg-primary-dark text-white rounded-full  py-3 px-6 cursor-pointer border-0 hover:bg-primary-light "
-                >
-                  Send Message
-                </button>
-              </div>
+              <form
+                action="#"
+                className="flex flex-col justify-center items-center gap-2"
+              >
+                <div className="form-group w-full mx-auto my-0">
+                  <input
+                    type="text"
+                    className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
+                    placeholder="Name"
+                    name="username"
+                    id="username"
+                    required
+                  />
+                </div>
+                <div className="form-group w-full mx-auto my-0">
+                  <input
+                    type="email"
+                    className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
+                    placeholder="Email"
+                    name="email"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div className="form-group w-full mx-auto my-0">
+                  <input
+                    type="text"
+                    className="w-full p-2 focus-visible:outline-primary-light border rounded-md text-base text-primary-middle border-primary-bordercolor"
+                    placeholder="Subject"
+                    required
+                    id="subject"
+                    name="subject"
+                  />
+                </div>
+                <div className="form-group w-full mx-auto my-0">
+                  <textarea
+                    className="w-full p-2 border focus-visible:outline-primary-light rounded-md text-base text-primary-middle border-primary-bordercolor"
+                    placeholder="Message"
+                    rows={5}
+                    required
+                  ></textarea>
+                </div>
+                <div className="form-group w-full mx-auto my-0 text-center">
+                  <button
+                    type="submit"
+                    className="btn bg-primary-dark text-white rounded-full  py-3 px-6 cursor-pointer border-0 hover:bg-primary-light "
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

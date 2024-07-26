@@ -22,8 +22,8 @@ const AboutComponent = () => {
   ];
 
   return (
-    <div className="About  max-w-[1200px] mx-auto my-0"  >
-      <div className="container mx-auto my-0 mt-[7.5rem]" id="#about">
+    <div className="About max-w-[1200px] mx-auto my-0" id="#about">
+      <div className="container mx-auto my-0 mt-[7.5rem]">
         <h1
           className={`${raleway.className} text-[32px] uppercase text-black font-bold mb-3 line-before-after text-center`}
           data-aos="fade-up"
@@ -31,8 +31,10 @@ const AboutComponent = () => {
           About
         </h1>
         <div className="text flex flex-col lg:flex-row justify-center items-baseline gap-9 max-w-[1220px] mx-auto my-0 lg:gap-7 md:gap-9 ">
-          <div className="text-01 flex flex-col justify-center items-baseline lg:items-baseline gap-5 lg:w-[50%]"
-          data-aos="fade-up" data-aos-delay="150"
+          <div
+            className="text-01 flex flex-col justify-center items-baseline lg:items-baseline gap-5 lg:w-[50%]"
+            data-aos="fade-up"
+            data-aos-delay="150"
           >
             <p
               className={`text-primary-middle text-[16px] ${openSans.className}`}
@@ -52,14 +54,16 @@ const AboutComponent = () => {
               </p>
             ))}
           </div>
-          <div className="text-02 flex flex-col justify-center items-center lg:items-start gap-5 lg:w-[50%]"
-          data-aos="fade-up" data-aos-delay="300"
+          <div
+            className="text-02 flex flex-col justify-center items-center lg:items-start gap-5 lg:w-[50%]"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             <p
               className={`text-primary-middle text-[16px] ${openSans.className}`}
             >
-              We are professional, but we are also friendly, and we will always pay
-              attention to your concerns. We expect to work with innovative
+              We are professional, but we are also friendly, and we will always
+              pay attention to your concerns. We expect to work with innovative
               people that have an open mind and are dedicated to making every
               idea a reality. We want to hear from you if you are interested in
               SEO, have Web Development ideas, or require a graphic designer who
