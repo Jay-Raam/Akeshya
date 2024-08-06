@@ -49,7 +49,7 @@ const HomeComponent = () => {
           <Image
             src={Image001}
             alt="hero-image"
-            className="w-full overflow-hidden lg:w-[525px] flex justify-center items-center animation"
+            className="w-[320px] overflow-hidden lg:w-[525px] flex justify-center items-center animation"
           />
         </div>
       </div>

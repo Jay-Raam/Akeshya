@@ -130,6 +130,7 @@
   .nav-links-container.open {
     display: flex;
     gap: 50px;
+    padding-bottom: 120px;
   }
 
   .nav-links-container.closed {
@@ -156,7 +157,7 @@
 }
 
 @media (max-width: 768px) {
-  .navbar{
+  .navbar {
     width: 768px;
   }
   .logo-img {

@@ -24,12 +24,9 @@ const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
   const closeMenu = () => {
     setIsOpen(false);
+    setNavOpen(!navOpen);
   };
 
   const toggleNav = () => {
@@ -45,24 +42,36 @@ const Navbar = () => {
         </div>
         <div className="menu-button-container">
           <button onClick={toggleNav} type="button" className="menu-button">
-            <i className="menu-icon"><BiMenu /></i>
+            <i className="menu-icon">
+              <BiMenu />
+            </i>
           </button>
         </div>
 
         <div className={`nav-links-container ${navOpen ? "open" : "closed"}`}>
           <div className="close-btn">
             <button onClick={toggleNav} type="button" className="menu-button">
-              <i className="close-icon"><BiX /></i>
+              <i className="close-icon">
+                <BiX />
+              </i>
             </button>
           </div>
           <ul className="nav-links">
             <li>
-              <Link href="/" className={`nav-link text-primary-dark ${openSans.className}`} onClick={closeMenu}>
+              <Link
+                href="/"
+                className={`nav-link text-primary-dark ${openSans.className}`}
+                onClick={closeMenu}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#about" className={`nav-link ${openSans.className}`} onClick={closeMenu}>
+              <Link
+                href="#about"
+                className={`nav-link ${openSans.className}`}
+                onClick={closeMenu}
+              >
                 About
               </Link>
             </li>
@@ -76,16 +85,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="w-full">
-              <Link
-                href="#contact"
-                onClick={closeMenu}
-              >
-              <button
-                type="button"
-                className={`contact-button ${openSans.className}`}
-              >
-                Contact Us
-              </button>
+              <Link href="#contact" onClick={closeMenu}>
+                <button
+                  type="button"
+                  className={`contact-button ${openSans.className}`}
+                >
+                  Contact Us
+                </button>
               </Link>
             </li>
           </ul>

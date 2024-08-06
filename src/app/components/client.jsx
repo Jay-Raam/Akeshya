@@ -4,7 +4,6 @@ import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
 import Image001 from "../image/counts-img.svg";
 import Image from "next/image";
-import { CounterComponent } from "./ui/counter";
 import { Open_Sans, Raleway } from "@next/font/google";
 import {
   BsJournalRichtext,
@@ -77,7 +76,7 @@ const ClientComponent = () => {
                   {counterOn && (
                     <CountUp
                       className={`${openSans.className} text-[36px] text-black font-bold`}
-                      start={14070}
+                      start={14000}
                       end={14081}
                       duration={2}
                       delay={0}
@@ -98,7 +97,7 @@ const ClientComponent = () => {
                   {counterOn && (
                     <CountUp
                       className={`${openSans.className} text-[36px] text-black font-bold`}
-                      start={80}
+                      start={0}
                       end={85}
                       duration={2}
                       delay={0}
@@ -117,7 +116,7 @@ const ClientComponent = () => {
                   {counterOn && (
                     <CountUp
                       className={`${openSans.className} text-[36px] text-black font-bold`}
-                      start={10}
+                      start={0}
                       end={17}
                       duration={2}
                       delay={0}
